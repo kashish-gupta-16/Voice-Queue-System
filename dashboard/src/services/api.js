@@ -1,4 +1,4 @@
-const BASE = "http://localhost:8000";
+const BASE = "https://voice-queue-system.onrender.com";
 
 export const getAllTokens = async () => {
   const res = await fetch(`${BASE}/token/all`);
