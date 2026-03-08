@@ -66,7 +66,7 @@ import tokenRoutes from "./routes/token.routes.js";
 const app = express();
 
 app.use(cors({
-  origin: "http://localhost:3000"
+  origin: "*"
 }));
 
 app.use(express.json());
