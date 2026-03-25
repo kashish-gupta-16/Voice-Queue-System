@@ -25,11 +25,11 @@ import Session from "../models/session.models.js";
 import { buildGatherResponse, buildVoiceResponse } from "../services/tts.services.js";
 
 const SERVICE_MENU = {
-  english: "Press 1 for Doctor. Press 2 for Lab. Press 3 for Pharmacy.",
-  hindi: "Doctor ke liye 1 dabayein. Lab ke liye 2 dabayein. Pharmacy ke liye 3 dabayein.",
+  english: "Press 1 for Doctor. Press 2 for Lab. Press 3 for Pharmacy. Press 4 for Bank. Press 5 for Government Office.",
+  hindi: "Doctor ke liye 1 dabayein. Lab ke liye 2 dabayein. Pharmacy ke liye 3 dabayein. Bank ke liye 4 dabayein. Government Office ke liye 5 dabayein.",
 };
 
-const SERVICES = { "1": "doctor", "2": "lab", "3": "pharmacy" };
+const SERVICES = { "1": "doctor", "2": "lab", "3": "pharmacy", "4": "Bank", "5": "Government Office" };
 const LANGUAGES = { "1": "hindi", "2": "english" };
 
 export const handleLanguage = async (req, res) => {

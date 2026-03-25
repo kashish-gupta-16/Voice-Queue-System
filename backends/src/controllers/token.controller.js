@@ -42,7 +42,7 @@ import Queue from "../models/queue.models.js";
 import { sendSMS } from "../services/sms.services.js";
 import { buildVoiceResponse } from "../services/tts.services.js";
 
-const PREFIX = { doctor: "D", lab: "L", pharmacy: "P" };
+const PREFIX = { doctor: "D", lab: "L", pharmacy: "P", bank: "B", governmentoffice: "GO" };
 
 // ── Generate token (called by IVR) ───────────────────────────────
 export const generateToken = async (req, res) => {
