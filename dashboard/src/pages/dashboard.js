@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useCallback } from "react";
-import QueueTable from "./components/QueueTable.js";
+import QueueTable from "../components/QueueTable.js";
 import { getAllTokens, updateTokenStatus } from "../services/api";
 
-const SERVICES = ["all", "doctor", "lab", "pharmacy"];
+const SERVICES = ["all", "doctor", "lab", "pharmacy" , "bank" , "government office"];
 const STATUSES  = ["all", "waiting", "serving", "done"];
 
-const SERVICE_ICONS = { all: "🏥", doctor: "🩺", lab: "🧪", pharmacy: "💊" };
+const SERVICE_ICONS = { all: "🏥", doctor: "🩺", lab: "🧪", pharmacy: "💊" , bank: "🏦" , governmentoffice: "🏛"};
 
 const StatCard = ({ label, value, accent, bg, icon }) => (
   <div style={{

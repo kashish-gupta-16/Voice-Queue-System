@@ -6,11 +6,13 @@ const STATUS_STYLES = {
   done:     { bg: "#f3e5f5", border: "#ce93d8", text: "#6a1b9a", dot: "#9c27b0" },
 };
 
-const SERVICE_ICONS  = { doctor: "🩺", lab: "🧪", pharmacy: "💊" };
+const SERVICE_ICONS  = { doctor: "🩺", lab: "🧪", pharmacy: "💊", bank: "🏦", governmentoffice: "🏛" };
 const SERVICE_COLORS = {
   doctor:   { bg: "#fce4ec", border: "#f48fb1", text: "#c2185b" },
   lab:      { bg: "#e3f2fd", border: "#90caf9", text: "#1565c0" },
   pharmacy: { bg: "#e8f5e9", border: "#a5d6a7", text: "#2e7d32" },
+  bank: {bg: "#fce4ec", border: "#f48fb1", text: "#c2185b"},
+  governmentoffice: { bg: "#e3f2fd", border: "#90caf9", text: "#1565c0" },
 };
 
 function timeAgo(date) {

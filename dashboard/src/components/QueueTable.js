@@ -1,14 +1,16 @@
 import React from "react";
-import TokenCard from "./TokenCard";
+import TokenCard from "../components/TokenCard.js";
 
-const SERVICE_LABELS = { doctor: "Doctor", lab: "Lab", pharmacy: "Pharmacy" };
-const SERVICE_ICONS  = { doctor: "🩺",    lab: "🧪",  pharmacy: "💊" };
-const SERVICES = ["doctor", "lab", "pharmacy"];
+const SERVICE_LABELS = { doctor: "Doctor", lab: "Lab", pharmacy: "Pharmacy" , bank: "Bank" , governmentoffice: "Government Office" };
+const SERVICE_ICONS  = { doctor: "🩺",    lab: "🧪",  pharmacy: "💊", bank: "🏦", governmentoffice: "🏛" };
+const SERVICES = ["doctor", "lab", "pharmacy" , "bank" , "government office"];
 
 const SERVICE_COLORS = {
   doctor:   { bg: "#fff0f6", border: "#ffb3c6", accent: "#e91e8c" },
   lab:      { bg: "#f0f7ff", border: "#b3d4ff", accent: "#1976d2" },
   pharmacy: { bg: "#f0fff4", border: "#b3f0c6", accent: "#2e7d32" },
+  bank: { bg: "#fff0f6", border: "#ffb3c6", accent: "#e91e8c" },
+  governmentoffice: { bg: "#fff0f6", border: "#ffb3c6", accent: "#e91e8c" },
 };
 
 const QueueTable = ({ tokens, onStatusChange, serviceFilter, statusFilter }) => {
