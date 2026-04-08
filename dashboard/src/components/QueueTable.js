@@ -1,5 +1,5 @@
 import React from "react";
-import TokenCard from "../components/TokenCard.js";
+import TokenCard from "./components/TokenCard.js";
 
 const SERVICE_LABELS = { doctor: "Doctor", lab: "Lab", pharmacy: "Pharmacy" , bank: "Bank" , governmentoffice: "Government Office" };
 const SERVICE_ICONS  = { doctor: "🩺",    lab: "🧪",  pharmacy: "💊", bank: "🏦", governmentoffice: "🏛" };
