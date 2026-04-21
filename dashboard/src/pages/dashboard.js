@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from "react";
-import QueueTable from "./components/QueueTable";
+import QueueTable from "../components/queuetable";
 import { getAllTokens, updateTokenStatus } from "../services/api";
 // const Input = () => {
 //   return (
