@@ -1,13 +1,3 @@
-// import mongoose from "mongoose";
-
-// const tokenSchema = new mongoose.Schema({
-//   tokenNumber: String,
-//   phoneNumber: String,
-//   position: Number,
-//   expectedTime: String
-// }, { timestamps: true });
-
-// export default mongoose.model("Token", tokenSchema);
 
 import mongoose from "mongoose";
 

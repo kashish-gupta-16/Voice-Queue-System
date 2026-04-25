@@ -1,13 +1,4 @@
-// import mongoose from "mongoose";
 
-// const callSessionSchema = new mongoose.Schema({
-//   phoneNumber: String,
-//   language: { type: String, default: null },
-//   serviceType: { type: String, default: null },
-//   status: { type: String, default: "STARTED" }
-// }, { timestamps: true });
-
-// export default mongoose.model("CallSession", callSessionSchema);
 import mongoose from "mongoose";
 
 const sessionSchema = new mongoose.Schema({

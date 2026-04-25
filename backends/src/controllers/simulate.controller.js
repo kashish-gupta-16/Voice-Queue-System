@@ -1,26 +1,4 @@
-// import CallSession from "../models/callsession.js";
 
-// export const simulateLanguage = async (req, res) => {
-//   const { sessionId, language } = req.body;
-
-//   await CallSession.findByIdAndUpdate(sessionId, { language });
-
-//   res.json({
-//     message: "Language selected (IVR simulated)",
-//     language
-//   });
-// };
-
-// export const simulateService = async (req, res) => {
-//   const { sessionId, service } = req.body;
-
-//   await CallSession.findByIdAndUpdate(sessionId, { serviceType: service });
-
-//   res.json({
-//     message: "Service selected (IVR simulated)",
-//     service
-//   });
-// };
 import Session from "../models/session.models.js";
 import { buildGatherResponse, buildVoiceResponse } from "../services/tts.services.js";
 

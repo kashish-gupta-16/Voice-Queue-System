@@ -1,8 +1,4 @@
-// export const sendSMS = (phone, message) => {
-//   console.log("📩 SMS SENT");
-//   console.log("To:", phone);
-//   console.log("Message:", message);
-// };
+
 import axios from "axios";  // ← ADD THIS
 import dotenv from "dotenv";
 dotenv.config();
