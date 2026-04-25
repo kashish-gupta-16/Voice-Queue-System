@@ -204,7 +204,7 @@ Digits = 1
 
 ---
 ## Dashboard Preview
-![dashboard screenshot](image.png)
+![dashboard screenshot](./dashboard/image.png)
 
 ## 💡 Use Cases
 
