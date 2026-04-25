@@ -10,13 +10,9 @@ This system helps eliminate long physical queues and improves service efficiency
 ---
 
 ## System Architecture
-User Call → IVR System → Backend (Node.js) → MongoDB
+User Call → IVR System → Backend (Node.js) → Token Generation → SMS + Voice Response → Admin Dashboard
                           ↓
-                    Token Generation
-                          ↓
-                 SMS + Voice Response
-                          ↓
-                    Admin Dashboard
+                        MongoDB
 
 ---
 
