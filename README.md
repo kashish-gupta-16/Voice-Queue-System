@@ -236,4 +236,6 @@ Feel free to fork this repository and improve it!
 
 ## 📜 License
 
-This project is open-source and available under the MIT License.
+This project is proprietary software.  
+All rights reserved © 2026 Voice Queue System.  
+Unauthorized use, copying, modification, or distribution is strictly prohibited.
